@@ -1,0 +1,14 @@
+{
+    "name": "ha/rabbitmq-test",
+    "authors": [
+        {
+            "name": "Hugues-Antoine Rabany"        }
+    ],
+    "require": {
+        "videlalvaro/php-amqplib": "^2.6",
+        "symfony/console": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {"RabbitmqTest\\": "src/"}
+    }   
+}
