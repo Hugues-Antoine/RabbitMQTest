@@ -5,7 +5,6 @@
 ```
 git clone https://github.com/Hugues-Antoine/RabbitMQTest.git
 docker run --rm -it -v $(pwd):/$(pwd) -w /$(pwd)  huguesantoine/php bash -c "composer install"
-
 ```
 
 ## Commande
